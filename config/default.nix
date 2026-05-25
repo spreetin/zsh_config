@@ -5,7 +5,7 @@
     ./direnv.nix
     ./eza.nix
     ./tmux.nix
-    ./zoxide.nix
+    #./zoxide.nix
   ];
   programs.zsh = {
     dotDir = "${config.xdg.configHome}/zsh";

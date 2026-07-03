@@ -28,16 +28,17 @@ in
       enable = true;
       theme = "af-magic";
       plugins = [
-        "git"
-        "ssh"
-        "sudo"
-        "web-search"
-        "extract"
         "colored-man-pages"
         "compleat"
-        "fzf"
-        "vi-mode"
         "direnv"
+        "extract"
+        "fzf"
+        "git"
+        "magic-enter"
+        "ssh"
+        "sudo"
+        "vi-mode"
+        "web-search"
       ];
     };
     initContent = lib.mkAfter (
